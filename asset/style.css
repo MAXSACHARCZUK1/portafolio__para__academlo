@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black:#020403;
+    --grey: #adadada9;
+    --greyy: #2c2a2af0;
+    --white: #ffffff;
+}
+body {
+    background-color: var(--black);
+    font-family: 'Rubik', sans-serif;
+}
+nav { 
+    display: flex;
+    justify-content: flex-end;
+}/*NAV_anchore-menu*/
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 3rem;
+    max-width: 1200px;
+    min-width: 805px;
+}
+a{
+  color: var(--white);  
+  text-decoration: none;
+  margin: 1rem;  
+  padding: 1rem;
+}/*header-img-hola soy dan-des.y programador web-linkedin/instagram/twiter*/
+header .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 1.5rem;
+}
+header p {
+    color: var(--grey);
+    font-size: 35px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+header .titulo {
+    color: var(--white);
+    font-size: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*(top, right, bottom, y left)las tres img de
+linkedin-twitwer-instagram*/
+header .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+
+}
+.img1 {
+    color: var(--greyy);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    top: 800px;   
+}
+.img2 {
+    color: var(--greyy);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 650px;
+    top: 800px;
+}
+.img3 {
+    color: var(--greyy);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 800px;
+    top: 800px;
+}
+/*desde aca el acerca de mi*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .p{
+    color: var(--white);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 150px 0 30px;
+}
+.cajas main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.parrafo{
+    color: var(--grey);
+    font-size: 18px;
+    position: relative;
+    width: 1200px;
+    height: 150px;
+}
+ .section1 {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}   
+.mis__habilidades{
+    color: var(--white);
+    font-size: 35px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.circle__padre{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 350px;
+    width: 1200px;
+}
+
+.circulo1{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    width: 150px;
+    height: 150px;
+}
+.circulo2{
+    position: relative;
+    top: 50px;
+    left: 210px;
+    width: 150px;
+    height: 150px;
+}
+.circulo3{
+    position: relative;
+    top: 250px;
+    right: 210px;
+    width: 150px;
+    height: 150px;
+}
+.circulo4{
+    position: relative;
+    top: 250px;
+    right: 90px;
+    width: 150px;
+    height: 150px;
+}
+.i{
+    background-color: var(--greyy);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 24px;
+}
+.i img{
+    position: relative;
+   top: 15px; 
+    width: 70px;
+    height: 70px;
+}
+.circulo1 h3{
+
+    color: var(--white);
+    font-size: 15px;
+    margin-top: 1rem;
+}  
+.circulo2 h3{
+    color: var(--white);
+    font-size: 15px;
+    margin-top: 1rem;
+}  
+.circulo3 h3{
+    color: var(--white);
+    font-size: 15px;
+    margin-top: 1rem;
+}  
+.circulo4 h3{
+    color: var(--white);
+    font-size: 15px;
+    margin-top: 1rem;
+}  
+.experiencia{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    position: relative;
+    left: 330px;
+}
+.experiencia p{
+    font-size: 35px;
+}
+
+.fecha p{
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+    position: relative;
+    top: 18px;
+    color: var(--grey);
+}
+.academlo p{
+    font-size: 20px;
+    position: relative;
+    bottom: 303px;
+    height: 20px;
+    left: 100px;
+    color: var(--white);
+
+}
+.hr{
+    position: relative;
+    bottom: 300px;
+    color: var(--grey)
+    
+}
+.portafolio{
+    position: relative;
+    bottom: 300px;
+}
+.img__portafolio{
+display: flex;
+justify-content: center;
+align-content: center;
+gap: 5rem;
+}
+.contacto{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+}
+.contacto p{
+    color: var(--white);
+    position: relative;
+    top: 600px;
+    font-size: 35px;
+    left: 240px;
+
+}
+.contacto__email{
+    display: flex;
+    position: relative;
+    top: 800px;
+    right: 100px;
+    font-size: 40px;
+}
+.circulo__gris{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--grey);
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+.circulo__negro{
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background-color:var(--black);
+    position: relative;
+    bottom: 98.5px;
+    left: 2px;
+}
+.phone img{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    bottom: 80px;
+    right: 80px;
+}
+.circulo__gris2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--grey);
+    position: relative;
+    bottom: 100px;
+}
+.circulo__negro2{
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background-color: var(--black);
+    position: relative;
+    bottom: 98.5px;
+    right: 98px; 
+}
+.email img{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    bottom: 80px;
+    right: 180px;
+}
+
+
+
+
+
+
+
+
+
+
